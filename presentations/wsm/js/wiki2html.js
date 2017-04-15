@@ -1,0 +1,156 @@
+/**
+ * Whole script is based on http://remysharp.com/downloads/wiki2html.js script.
+ * I changed just few fixes to let it work under node enviroment and added some argument parsing.
+ * 
+ * Usage:
+ * wiki2html <input file> – prints generated HTML based on input file in MediaWiki format to console.
+ * wiki2html <input file> <output file> – saves generated HTML to output file.
+ */ 
+
+(function (global) {
+    
+    var extendString = true;
+
+    if (extendString) {
+        String.prototype.wiki2html = wiki2html;
+        String.prototype.iswiki = iswiki;
+    } else {
+        global.wiki2html = wiki2html;
+        global.iswiki = iswiki;
+    }
+
+    // utility function to check whether it's worth running through the wiki2html
+    function iswiki(s) {
+        if (extendString) {
+            s = this;
+        }
+
+        return !!(s.match(/^[\s{2} `#\*='{2}]/m));
+    }
+
+    // the regex beast...
+    function wiki2html(s) {
+        if (extendString) {
+            s = this;
+        }
+    
+        // lists need to be done using a function to allow for recusive calls
+        function list(str) {
+            return str.replace(/(?:(?:(?:^|\n)[\*#].*)+)/g, function (m) {  // (?=[\*#])
+                var type = m.match(/(^|\n)#/) ? 'OL' : 'UL';
+                // strip first layer of list
+                m = m.replace(/(^|\n)[\*#][ ]{0,1}/g, "$1");
+                m = list(m);
+                return '<' + type + '><li>' + m.replace(/^\n/, '').split(/\n/).join('</li><li>') + '</li></' + type + '>';
+            });
+        }
+    
+        return list(s
+            /* BLOCK ELEMENTS */
+            .replace(/(?:^|\n+)([^# =\*<].+)(?:\n+|$)/gm, function (m, l) {
+                if (l.match(/^\^+$/)) return l;
+                return "\n<p>" + l + "</p>\n";
+            })
+
+            .replace(/(?:^|\n)[ ]{2}(.*)+/g, function (m, l) { // blockquotes
+                if (l.match(/^\s+$/)) return m;
+                return '<blockquote>' + l + '</pre>';
+            })
+        
+            .replace(/((?:^|\n)[ ]+.*)+/g, function (m) { // code
+                if (m.match(/^\s+$/)) return m;
+                return '<pre>' + m.replace(/(^|\n)[ ]+/g, "$1") + '</pre>';
+            })
+
+            .replace(/(?:^|\n)([=]+)(.*)\1/g, function (m, l, t) { // headings
+                return '<h' + l.length + '>' + t + '</h' + l.length + '>';
+            })
+    
+            /* INLINE ELEMENTS */
+            .replace(/'''(.*?)'''/g, function (m, l) { // bold
+                return '<strong>' + l + '</strong>';
+            })
+    
+            .replace(/''(.*?)''/g, function (m, l) { // italic
+                return '<em>' + l + '</em>';
+            })
+ 
+/* disabled by lucascervera to allow iframe usage
+ 
+            .replace(/[^\[](http[^\[\s]*)/g, function (m, l) { // normal link
+                return '<a href="' + l + '">' + l + '</a>';
+            })
+
+
+
+            .replace(/[\[](http.*)[!\]]/g, function (m, l) { // external link
+                var p = l.replace(/[\[\]]/g, '').split(/ /);
+                var link = p.shift();
+                return '<a href="' + link + '" target="_blank">' + (p.length ? p.join(' ') : link) + '</a>';
+            })
+ 
+disabled by lucascervera to allow iframe usage */
+ 
+            .replace(/\[\[(.*?)\]\]/g, function (m, l) { // internal link or image
+                var p = l.split(/\|/);
+                var link = p.shift();
+
+                if (link.match(/^Image:(.*)/)) {
+					
+
+				
+// no support for images - since it looks up the source from the wiki db :-(
+
+                    return m;
+                } else {
+					
+//modified by lucascervera. the original was return '<a href="' + link + '">' + (p.length ? p.join('|') : link) + '</a>'
+					
+                    return '<a href="#/' + link.replace(/ /g,"_").replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u").replace(/ /g,"_").replace(/\¿/g,"").replace(/\?/g,"").replace(/ñ/g,"n") + '">' + (p.length ? p.join('|') : link) + '</a>';
+                }
+            })
+        ); 
+    }
+})(this);
+
+var path = require('path'),
+    fs = require('fs'),
+    sys = require('sys');
+
+require.paths.unshift(path.join(__dirname, '..', 'lib'));
+
+var args = process.argv.slice(1);
+
+var input = args[1];
+
+if (input && input[0] != '/') {
+    input = path.join(process.cwd(), input);
+}
+
+var output = args[2];
+if (output && output[0] != '/') {
+    output = path.join(process.cwd(), output);
+}
+
+
+if (!input) {
+    sys.puts("wiki2html: no input file");
+    process.exit(1);
+}
+
+var result = '';
+fs.readFile(input, 'utf-8', function (e, data) {
+    if (e) {
+        sys.puts("wiki2html: " + e.message);
+        process.exit(1);
+    }
+    
+    result = data.wiki2html();
+    
+    if (output) {
+        fd = fs.openSync(output, "w");
+        fs.writeSync(fd, result, 0, "utf8");
+    } else {
+        sys.print(result);
+    }    
+});

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+<path id="danger-3-icon" d="M280.647,215.038l37.163-64.367c36.938,21.371,61.79,61.312,61.79,107.057h-74.28
+
+	C305.32,239.509,295.382,223.577,280.647,215.038z M231.352,300.422l-37.162,64.366c18.183,10.521,39.294,16.541,61.811,16.541
+
+	s43.628-6.021,61.811-16.541l-37.163-64.368C265.724,309.072,246.92,309.443,231.352,300.422z M231.353,215.038l-37.163-64.366
+
+	c-36.938,21.371-61.79,61.312-61.79,107.057h74.279C206.679,239.509,216.618,223.577,231.353,215.038z M256,286.05
+
+	c15.64,0,28.32-12.681,28.32-28.321c0-15.64-12.681-28.318-28.32-28.318s-28.321,12.678-28.321,28.318
+
+	C227.679,273.369,240.36,286.05,256,286.05z M462,256c0,113.771-92.229,206-206,206S50,369.771,50,256S142.229,50,256,50
+
+	S462,142.229,462,256z M422,256c0-91.755-74.258-166-166-166c-91.755,0-166,74.259-166,166c0,91.755,74.258,166,166,166
+
+	C347.755,422,422,347.741,422,256z"/>
+
+</svg>
+

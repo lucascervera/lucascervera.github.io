@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="1280"
+   height="720"
+   viewBox="0 0 1280 720"
+   enable-background="new 0 0 512 512"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="cost-effective.svg"
+   inkscape:export-filename="C:\Users\Lucas\Google Drive\formulable\formulable-site\files\cost-effective.png"
+   inkscape:export-xdpi="185.34"
+   inkscape:export-ydpi="185.34"><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs7" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   id="namedview5"
+   showgrid="false"
+   inkscape:zoom="0.29609341"
+   inkscape:cx="256"
+   inkscape:cy="256"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg2" />
+<path
+   id="banknote-multi-6-icon"
+   d="M 956.82376,475.9458 C 765.77238,591.78188 611.36022,434.08082 413.5247,651.99688 L 288.148,358.95911 l 39.07858,-43.00705 106.05977,247.09158 -0.0519,0.23493 c 207.43389,-164.4625 311.91448,-34.57369 504.53205,-134.12264 8.20751,19.00506 15.73823,39.1076 19.05726,46.78987 z M 613.55127,200.18973 c -42.98676,7.57939 -63.61996,48.91108 -46.01853,92.3451 18.55738,45.83474 71.85506,75.14572 115.69876,63.58458 38.88058,-10.23218 56.76278,-49.69303 40.01181,-91.04186 -17.57871,-43.41688 -66.69554,-72.46721 -109.69204,-64.88782 z m 55.96751,117.73435 4.08022,10.07784 -14.2759,2.51904 -3.65987,-9.01982 c -7.099,0.61904 -17.16484,-0.29495 -25.34313,-2.82255 l -2.00765,-17.46004 c 8.08416,1.51759 21.1282,3.51704 28.72871,0.20063 6.48388,-2.82083 5.66427,-9.60285 -4.19545,-11.77549 -8.39253,-1.96858 -34.14791,-1.02202 -42.49337,-21.61841 -3.44888,-8.53796 -1.8697,-21.38177 12.46301,-27.63048 l -4.14027,-10.23218 14.27752,-2.51903 3.80756,9.39535 c 6.29237,-0.66019 13.00509,-0.61218 21.14444,0.39441 0.55831,3.30612 3.03176,17.66066 3.03176,17.66066 -5.67401,-0.82996 -15.02735,-2.38528 -22.6522,-0.56245 -0.13634,0.0343 -0.27105,0.0703 -0.40251,0.1046 -8.96869,2.36127 -6.72895,9.41422 0.9949,11.52857 15.82424,3.74854 37.26894,5.52335 44.63248,23.70188 5.71134,14.05789 -1.89241,23.96768 -13.99025,28.05747 z M 835.00305,76.741679 C 635.75228,213.76404 500.3779,60.953568 338.37009,226.83935 c 37.68767,87.25388 93.1196,215.56851 116.07205,268.70998 166.32985,-135.33157 315.91684,2.70938 500.82192,-136.23183 L 835.00305,76.741679 z M 529.34357,400.80009 c -20.46927,-18.9159 -60.3837,-42.90073 -87.1145,-39.56031 -10.71829,-24.81479 -20.76952,-47.43807 -30.97981,-71.07994 17.79943,-19.03079 31.60791,-57.30156 32.72291,-87.35677 93.85644,-37.45453 202.0683,0.52645 318.17768,-38.05643 20.86852,20.29631 53.41615,35.13271 81.19379,36.70689 l 34.51633,84.14839 c -18.14676,22.3592 -30.4848,51.35295 -34.4579,80.64506 -98.1022,31.86774 -209.2452,-3.34556 -314.0585,34.55311 z"
+   style="fill:#2c3e50;fill-opacity:1"
+   inkscape:connector-curvature="0" />
+</svg>

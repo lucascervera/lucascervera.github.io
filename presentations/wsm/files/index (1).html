@@ -1,0 +1,1093 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Organization Structured Model</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<link rel="stylesheet" href="css/theme/orgasm.css" id="theme">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<!-- In between the <div="reveal"> and the <div class="slides">-->
+			<header style="position: absolute;top: 10px; left: 10px; z-index:500;background-color: whitesmoke">Organization Semantic Model (OrgaSM)</header>
+			<!-- In between the <div="reveal"> and the <div class="slides">-->
+			<div id="OrgaSM-content" class="slides">
+
+			<!-- LUCASCERVERA TEMPLATE: INSERT SECTIONS HERE -->
+<section id='orgasm' data-background='files/orgasm.jpg'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>orgasm</h1><div itemprop='description' class='orgasm-object-description'>Organization Structured Model (OrgaSM for short) is a tool that allows startups take their business modeling and validation efforts further</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='space'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>space</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='team'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>team</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'><div class='orgasm-relation' style='font-size:1.10em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Marty McFly]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Dr Emmett Brown]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.8em'>[[Elon Musk]]</div></div></div></section>
+<section id='team'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>team</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[Team]]</div>weight: 2500</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Marty McFly]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Dr Emmett Brown]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.8em'>[[Elon Musk]]</div></div></div></section>
+<section id='objectives' data-background='files/objectives.jpg'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>objectives</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'><div class='orgasm-relation' style='font-size:1.10em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.10em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.10em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.7em'>[[rentabilidad]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.5em'>[[un mundo más justo]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.6em'>[[aumentar el conocimiento científico]]</div></div></div></section>
+<section id='customers'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>customers</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.9em'>[[millonarios excéntricos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[aficionados a la historia]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[historiadores]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[biógrafos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.7em'>[[deportistas de aventura]]</div></div></div></section>
+<section id='problems'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>problems</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero vivirlo]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.7.5em'>[[poca información nueva]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero probar nuevas experiencias de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.6em'>[[me gusta proyectar una imagen de aventurero]]</div></div></div></section>
+<section id='solutions'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>solutions</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.9em'>[[viaje en el tiempo]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.6em'>[[DeLorean Time Machine]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.4em'>[[viaje inagural]]</div></div></div></section>
+<section id='propositions'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>propositions</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[vive tu etapa histórica favorita]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.6em'>[[reconocimiento como experto]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[desafío aventurero]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.5em'>[[vacile sorprendente]]</div></div></div></section>
+<section id='channels'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>channels</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[traditional media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[on-line media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[word of mouth]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[social networks]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.4em'>[[travel agencies]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[website]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.6em'>[[SEO]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[SEM]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.2em'>[[revistas especializadas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[comunidades]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[relaciones públicas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[impartición de conferencias]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[ferias y congresos]]</div></div></div></section>
+<section id='competitors'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>competitors</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='work'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>work</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='resources'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>resources</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='functions'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>functions</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='skills'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/orgas .svg' class='orgasm-icon-big'>skills</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='Marty_McFly' data-background='files/Marty_McFly.jpg'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/team.svg' class='orgasm-icon-big'>Marty McFly</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[team]]</div><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[team]]</div><div class='orgasm-relation' style='font-size:1.10em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='Dr_Emmett_Brown' data-background='files/Dr_Emmett_Brown.jpg'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/team.svg' class='orgasm-icon-big'>Dr Emmett Brown</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[team]]</div><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[team]]</div><div class='orgasm-relation' style='font-size:1.10em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='Elon_Musk'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/team.svg' class='orgasm-icon-big'>Elon Musk</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[team]]</div><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[team]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='rentabilidad'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/objectives.svg' class='orgasm-icon-big'>rentabilidad</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[objectives]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='un_mundo_mas_justo'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/objectives.svg' class='orgasm-icon-big'>un mundo más justo</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[objectives]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='aumentar_el_conocimiento_cientifico'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/objectives.svg' class='orgasm-icon-big'>aumentar el conocimiento científico</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[objectives]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='millonarios_excentricos'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/customers.svg' class='orgasm-icon-big'>millonarios excéntricos</h1><div itemprop='description' class='orgasm-object-description'>Personas en la lista <a href='http://www.forbes.com/sites/chasewithorn/2015/03/02/forbes-billionaires-full-list-of-the-500-richest-people-in-the-world-2015/'>Forbes 500</a> (patrimonio superior a 2B$). Persona:  George Laraby. se podría considerar que en torno al 20% de estos millonarios entrarían dentro del concepto de 'excéntricos'. El perfil de millonario que buscamos es similar al de las personas que han reservado un viaje con Virgin Galactic, aunque más exclusivo.</div><div class='orgasm-progress'><div class='progress-bar' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100' style='width: 0%;'>weight </div></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[customers]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.3em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero vivirlo]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero probar nuevas experiencias de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.6em'>[[me gusta proyectar una imagen de aventurero]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.9em'>[[viaje en el tiempo]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.6em'>[[DeLorean Time Machine]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.4em'>[[viaje inagural]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[vive tu etapa histórica favorita]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.6em'>[[reconocimiento como experto]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[desafío aventurero]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.5em'>[[vacile sorprendente]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[traditional media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[on-line media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[word of mouth]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[social networks]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.4em'>[[travel agencies]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[website]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.6em'>[[SEO]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[SEM]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.2em'>[[revistas especializadas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[comunidades]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[relaciones públicas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[impartición de conferencias]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[ferias y congresos]]</div><div class='orgasm-relation'><img src='files/svg/model.svg' style='font-size:1.em'>[[phases]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[miedo a morir]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[tamaño del mercado con capacidad de pago suficiente]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[ciclos dereinicio diario]]</div></div></div></section>
+<section id='aficionados_a_la_historia'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/customers.svg' class='orgasm-icon-big'>aficionados a la historia</h1><div itemprop='description' class='orgasm-object-description'>Aficionados a la historia (no profesionales). Personas que leen libros de historia, ven documentales sobre historia con frecuencia,  realizan viajes turísticos para conocer destinos de interés histórico, etc..</div><div class='orgasm-progress'><div class='progress-bar' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100' style='width: 0%;'>weight </div></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[customers]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero vivirlo]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.7.5em'>[[poca información nueva]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero probar nuevas experiencias de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.6em'>[[me gusta proyectar una imagen de aventurero]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.9em'>[[viaje en el tiempo]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.6em'>[[DeLorean Time Machine]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.4em'>[[viaje inagural]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[vive tu etapa histórica favorita]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.6em'>[[reconocimiento como experto]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[desafío aventurero]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.5em'>[[vacile sorprendente]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[traditional media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[on-line media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[word of mouth]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[social networks]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.4em'>[[travel agencies]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[website]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.6em'>[[SEO]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[SEM]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.2em'>[[revistas especializadas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[comunidades]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[relaciones públicas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[impartición de conferencias]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[ferias y congresos]]</div><div class='orgasm-relation'><img src='files/svg/model.svg' style='font-size:1.em'>[[phases]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[miedo a morir]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[tamaño del mercado con capacidad de pago suficiente]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[ciclos dereinicio diario]]</div></div></div></section>
+<section id='historiadores'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/customers.svg' class='orgasm-icon-big'>historiadores</h1><div itemprop='description' class='orgasm-object-description'>Historiadores profesionales como: profesores universitarios, autores de libros, periodistas especializados. Gente que se dedica profesionalmente a investigar sobre algún aspecto histórico y que cuentan con medios y recursos para financiar estas investigaciones.</div><div class='orgasm-progress'><div class='progress-bar' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100' style='width: 0%;'>weight </div></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[customers]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='biografos'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/customers.svg' class='orgasm-icon-big'>biógrafos</h1><div itemprop='description' class='orgasm-object-description'>Personas interesadas personajes históricos concretos. Por ejemplo Luis, que lleva más de 25 años investigando a Isaac Newton. Ya conozce toda la información relevante disponible. Ha escrito siete libros sobre él. Cada vez le resulta más difícil encontrar información nueva, que además siempre es irrelevante. Ha pensado varias veces en abandonar y no dedicar más horas a este asunto.</div><div class='orgasm-progress'><div class='progress-bar' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100' style='width: 0%;'>weight </div></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[customers]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='deportistas_de_aventura'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/customers.svg' class='orgasm-icon-big'>deportistas de aventura</h1><div itemprop='description' class='orgasm-object-description'>Aficionados a los deportes de aventura como el puenting, la escalada, y la tirolina. bueno, la tirolina no. Son inquietos, les gustra probar cada nuevo deporte de aventura que surge, aunque de la mayoría se cansan pronto. Corresponden al perfil de 'innovador' en el modelo de difusión de las innovaciones.</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[customers]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero vivirlo]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero probar nuevas experiencias de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.6em'>[[me gusta proyectar una imagen de aventurero]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.9em'>[[viaje en el tiempo]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.6em'>[[DeLorean Time Machine]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.4em'>[[viaje inagural]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[vive tu etapa histórica favorita]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.6em'>[[reconocimiento como experto]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[desafío aventurero]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.5em'>[[vacile sorprendente]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[traditional media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[on-line media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[word of mouth]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[social networks]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.4em'>[[travel agencies]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[website]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.6em'>[[SEO]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[SEM]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.2em'>[[revistas especializadas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[comunidades]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[relaciones públicas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[impartición de conferencias]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[ferias y congresos]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[miedo a morir]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[tamaño del mercado con capacidad de pago suficiente]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[ciclos dereinicio diario]]</div></div></div></section>
+<section id='quiero_vivirlo'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/problems.svg' class='orgasm-icon-big'>quiero vivirlo</h1><div itemprop='description' class='orgasm-object-description'>Para nuestros clientes poder vivir en primera persona la experiencia de ver cómo era la etapa histórica en la que están especializados sería posiblemente la experiencia más gratificante que puedan imaginar.</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[problems]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='poca_informacion_nueva'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/problems.svg' class='orgasm-icon-big'>poca información nueva</h1><div itemprop='description' class='orgasm-object-description'>Cuando se estudia en profundidad una determinada etapa o personaje de la historia, tras algún tiempo se llega a un punto en el que se han leído todos los libros y papers disponibles, se ha hablado con todas las personas que pueden aportar algo, y se ha atendido a innumerables conferencias, por lo que se conoce casi toda la información relevante. La produdctividad marginal del tiempo dedicado decrece rápidamente, creando una sensación de frustración profunda.</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[problems]]</div><div class='orgasm-relation' style='font-size:1.7.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.7.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.7.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='quiero_probar_nuevas_experiencias_de_aventura'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/problems.svg' class='orgasm-icon-big'>quiero probar nuevas experiencias de aventura</h1><div itemprop='description' class='orgasm-object-description'>Estos clientes quieren constantemente probar nuevas experiencias de aventura que les hagan subir la adrenalina. (clientes = aficionados a los deportes de aventura)</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[problems]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='me_gusta_proyectar_una_imagen_de_aventurero'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/problems.svg' class='orgasm-icon-big'>me gusta proyectar una imagen de aventurero</h1><div itemprop='description' class='orgasm-object-description'>Uno del os motivos fundamentales por los que se realizan este tipo de deportes es que la gente percibe a quienes los practican como personas molonas, interesantes e incluso sexys. Una de las satisfacciones de las que disfruta este tipo de cliente es contar sus experiencias a sus amigos. Por este motivo es habitual que compartan fotos y vídeos en redes sociales. (clientes = aficionados a los deportes de aventura)</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[problems]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='viaje_en_el_tiempo'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/solutions.svg' class='orgasm-icon-big'>viaje en el tiempo</h1><div itemprop='description' class='orgasm-object-description'>viaje en el tiempo a bordo de un DeLorean Time Machine. 3 planes: </div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[solutions]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='DeLorean_Time_Machine' data-background='files/DeLorean_Time_Machine.jpg'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/solutions.svg' class='orgasm-icon-big'>DeLorean Time Machine</h1><div itemprop='description' class='orgasm-object-description'>máquina del tiempo fabricada a partir de un DeLorean. Consumo: 1,21 gigowatios por viaje en el tiempo. Combustible: Plutonio o basura común. Velocidad máxima: 110 millas / hora. Alcance temporal: -13.800.000.000 A.C. - Ilimitado. Condensador de fluzo: fluceando</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[solutions]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='viaje_inagural'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/solutions.svg' class='orgasm-icon-big'>viaje inagural</h1><div itemprop='description' class='orgasm-object-description'>participación como uno de los 3 primeros viajeros en el tiempo. El precio por persona es de 1M$.</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[solutions]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='vive_tu_etapa_historica_favorita'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/propositions.svg' class='orgasm-icon-big'>vive tu etapa histórica favorita</h1><div itemprop='description' class='orgasm-object-description'>Ejemplos: 'Tömate una cerveza con Winston Churchill'</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[propositions]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='reconocimiento_como_experto'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/propositions.svg' class='orgasm-icon-big'>reconocimiento como experto</h1><div itemprop='description' class='orgasm-object-description'>Ejemplos: 'Conoce las historia mientras sucede y conviértete en el mayor experto mundial en tu especialidad.</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[propositions]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='desafio_aventurero'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/propositions.svg' class='orgasm-icon-big'>desafío aventurero</h1><div itemprop='description' class='orgasm-object-description'>¿te atreves a viajar en el tiempo?</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[propositions]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.3em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='vacile_sorprendente'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/propositions.svg' class='orgasm-icon-big'>vacile sorprendente</h1><div itemprop='description' class='orgasm-object-description'>imagínate cuando te pregunten qué has hecho el fin de semana</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[propositions]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='traditional_media_coverage'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>traditional media coverage</h1><div itemprop='description' class='orgasm-object-description'>coverage in traditional media (TV, radio, newspapers, etc...</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='on-line_media_coverage'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>on-line media coverage</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='word_of_mouth'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>word of mouth</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='social_networks'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>social networks</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='travel_agencies'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>travel agencies</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='website'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>website</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='SEO'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>SEO</h1><div itemprop='description' class='orgasm-object-description'>user contract enforces to include our company logo in any multimedia materials s/he publishes (we expect tons of it</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='SEM'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>SEM</h1><div itemprop='description' class='orgasm-object-description'>coverage in traditional media (blogs, publications, newspapers, etc...</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='revistas_especializadas'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>revistas especializadas</h1><div itemprop='description' class='orgasm-object-description'>revistas, programas de TV y radio, que nos permitan llegar a un público super específico</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.3em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.3em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.3em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='comunidades'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>comunidades</h1><div itemprop='description' class='orgasm-object-description'>asociaciones de aficionados o profesionales dedicados a un tema específico, foros de discusión, grupos de meetup, grupos de LinkedIn</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='relaciones_publicas'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>relaciones públicas</h1><div itemprop='description' class='orgasm-object-description'>asistencia a eventos de networking</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='imparticion_de_conferencias'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>impartición de conferencias</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.4em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='ferias_y_congresos'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/channels.svg' class='orgasm-icon-big'>ferias y congresos</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[channels]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='operations'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>operations</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='metrics'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>metrics</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.9em'>[[venta de servicios]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.em'>[[cuota de franquiciados]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.em'>[[venta de producto]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.em'>[[ingresos]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.em'>[[beneficio]]</div></div></div></section>
+<section id='venta_de_servicios'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/metrics.svg' class='orgasm-icon-big'>venta de servicios</h1><div itemprop='description' class='orgasm-object-description'>Los viajes en el tiempo se venderán como un servicio, que incluirá una formación previa, y conductor del vehículo. El precio de estos viajes en el tiempo será de entre 100.000 y 500.000 $ en función de la duración del mismo.</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[metrics]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 1]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='cuota_de_franquiciados'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/metrics.svg' class='orgasm-icon-big'>cuota de franquiciados</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[metrics]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='venta_de_producto'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/metrics.svg' class='orgasm-icon-big'>venta de producto</h1><div itemprop='description' class='orgasm-object-description'>En una segunda etapa DeLorean Time Machines venderá directamente a los clientes finales su máquina del tiempo para los que deseen tenerla en propiedad. Se estima que el precio final de venta al público será de 2.500.000 $.</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[metrics]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>phases</span> [[phase 2]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>phases</span> [[phase 3]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='ingresos'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/metrics.svg' class='orgasm-icon-big'>ingresos</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[metrics]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='beneficio'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/metrics.svg' class='orgasm-icon-big'>beneficio</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[metrics]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='phases' data-background='files/phases.jpg'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>phases</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'><div class='orgasm-relation' style='font-size:1.6em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/phases.svg' style='font-size:1.em'>[[proof of cocept]]</div><div class='orgasm-relation'><img src='files/svg/phases.svg' style='font-size:1.em'>[[product shaping]]</div><div class='orgasm-relation'><img src='files/svg/phases.svg' style='font-size:1.em'>[[vision]]</div><div class='orgasm-relation'><img src='files/svg/phases.svg' style='font-size:1.em'>[[phase 1]]</div><div class='orgasm-relation'><img src='files/svg/phases.svg' style='font-size:1.em'>[[phase 2]]</div><div class='orgasm-relation'><img src='files/svg/phases.svg' style='font-size:1.em'>[[phase 3]]</div></div></div></section>
+<section id='proof_of_cocept'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/phases.svg' class='orgasm-icon-big'>proof of cocept</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[phases]]</div><div class='orgasm-relation'><img src=''><span class='field-key'>phases</span> [[vision]]</div>end: 2015-12-31-0-0-0url: proof of coceptlanguage: product shaping</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='product_shaping'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/phases.svg' class='orgasm-icon-big'>product shaping</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[phases]]</div>end: 2016-06-01-0-0-0</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='vision'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/phases.svg' class='orgasm-icon-big'>vision</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[phases]]</div>end: 2018-12-31-0-0-0</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/phases.svg' style='font-size:1.em'>[[proof of cocept]]</div></div></div></section>
+<section id='risk'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>risk</h1><div itemprop='description' class='orgasm-object-description'><iframe width='1078.5' height='666.8725' seamless frameborder='0' scrolling='no' src='https://docs.google.com/spreadsheets/d/1osj-ctDKAanzVYdDBqPO7hUftD282nNW0pOR9l-yeKE/pubchart?oid=964327627&amp;format=image'></iframe></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[miedo a morir]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[tamaño del mercado con capacidad de pago suficiente]]</div><div class='orgasm-relation'><img src='files/svg/risk.svg' style='font-size:1.em'>[[ciclos dereinicio diario]]</div></div></div></section>
+<section id='miedo_a_morir'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/risk.svg' class='orgasm-icon-big'>miedo a morir</h1><div itemprop='description' class='orgasm-object-description'>existen problemas con la fijación de fechas, y con la determinación del lugar físico de llegada</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[risk]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.8em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='tamano_del_mercado_con_capacidad_de_pago_suficiente'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/risk.svg' class='orgasm-icon-big'>tamaño del mercado con capacidad de pago suficiente</h1><div itemprop='description' class='orgasm-object-description'>debido a lo costoso del desarrollo los precios son altos y existe la posibilidad de que los clientes se planteen esperar a que bajen</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[risk]]</div><div class='orgasm-relation' style='font-size:1.2em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.9em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.7em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='ciclos_dereinicio_diario'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/risk.svg' class='orgasm-icon-big'>ciclos dereinicio diario</h1><div itemprop='description' class='orgasm-object-description'>en Pantalooza un cliente quedó atrapado en el día 2 de Febrero con reinicios diarios producidos por un mal funcionamiento en el condensador de fluzo</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[risk]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[millonarios excéntricos]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[aficionados a la historia]]</div><div class='orgasm-relation' style='font-size:1.5em'><img src=''><span class='field-key'>customers</span> [[deportistas de aventura]]</div></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='experiments'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/model.svg' class='orgasm-icon-big'>experiments</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/experiments.svg' style='font-size:1.em'>[[entrevistas con millonarios]]</div><div class='orgasm-relation'><img src='files/svg/experiments.svg' style='font-size:1.em'>[[entrevistas con historiadores]]</div></div></div></section>
+<section id='entrevistas_con_millonarios'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/experiments.svg' class='orgasm-icon-big'>entrevistas con millonarios</h1><div itemprop='description' class='orgasm-object-description'>entrevistar a 10 clientes en 1 semana para validar que les interesa la propuesta de valor y que están dispuestos a aceptar el precio</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[experiments]]</div>value: millonarios excéntricos</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='entrevistas_con_historiadores'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/experiments.svg' class='orgasm-icon-big'>entrevistas con historiadores</h1><div itemprop='description' class='orgasm-object-description'>entrevistar a 10 clientes en 1 semana para validar que les interesa la propuesta de valor y que están dispuestos a aceptar el precio</div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[experiments]]</div>value: historiadores</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+<section id='phase_1'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/phases.svg' class='orgasm-icon-big'>phase 1</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[phases]]</div>date: 42157</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Marty McFly]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Dr Emmett Brown]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.8em'>[[Elon Musk]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.7em'>[[rentabilidad]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.5em'>[[un mundo más justo]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.6em'>[[aumentar el conocimiento científico]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.9em'>[[millonarios excéntricos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[aficionados a la historia]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[historiadores]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[biógrafos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.7em'>[[deportistas de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero vivirlo]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.7.5em'>[[poca información nueva]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero probar nuevas experiencias de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.6em'>[[me gusta proyectar una imagen de aventurero]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.9em'>[[viaje en el tiempo]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.6em'>[[DeLorean Time Machine]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.4em'>[[viaje inagural]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[vive tu etapa histórica favorita]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.6em'>[[reconocimiento como experto]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[desafío aventurero]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.5em'>[[vacile sorprendente]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[traditional media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[on-line media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[word of mouth]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[social networks]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.4em'>[[travel agencies]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[website]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.6em'>[[SEO]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[SEM]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.2em'>[[revistas especializadas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[comunidades]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[relaciones públicas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[impartición de conferencias]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[ferias y congresos]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.9em'>[[venta de servicios]]</div></div></div></section>
+<section id='phase_2'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/phases.svg' class='orgasm-icon-big'>phase 2</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[phases]]</div>date: 42279</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Marty McFly]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Dr Emmett Brown]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.8em'>[[Elon Musk]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.7em'>[[rentabilidad]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.5em'>[[un mundo más justo]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.6em'>[[aumentar el conocimiento científico]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.9em'>[[millonarios excéntricos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[aficionados a la historia]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[historiadores]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[biógrafos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.7em'>[[deportistas de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero vivirlo]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.7.5em'>[[poca información nueva]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero probar nuevas experiencias de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.6em'>[[me gusta proyectar una imagen de aventurero]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.9em'>[[viaje en el tiempo]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.6em'>[[DeLorean Time Machine]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.4em'>[[viaje inagural]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[vive tu etapa histórica favorita]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.6em'>[[reconocimiento como experto]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[desafío aventurero]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.5em'>[[vacile sorprendente]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[traditional media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[on-line media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[word of mouth]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[social networks]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.4em'>[[travel agencies]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[website]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.6em'>[[SEO]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[SEM]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.2em'>[[revistas especializadas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[comunidades]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[relaciones públicas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[impartición de conferencias]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[ferias y congresos]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.9em'>[[venta de servicios]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.em'>[[venta de producto]]</div></div></div></section>
+<section id='phase_3'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/phases.svg' class='orgasm-icon-big'>phase 3</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'><div class='orgasm-relation'><img src=''><span class='field-key'>model</span> [[phases]]</div>date: 42523</div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Marty McFly]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.10em'>[[Dr Emmett Brown]]</div><div class='orgasm-relation'><img src='files/svg/team.svg' style='font-size:1.8em'>[[Elon Musk]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.7em'>[[rentabilidad]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.5em'>[[un mundo más justo]]</div><div class='orgasm-relation'><img src='files/svg/objectives.svg' style='font-size:1.6em'>[[aumentar el conocimiento científico]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.9em'>[[millonarios excéntricos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[aficionados a la historia]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[historiadores]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.8em'>[[biógrafos]]</div><div class='orgasm-relation'><img src='files/svg/customers.svg' style='font-size:1.7em'>[[deportistas de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero vivirlo]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.7.5em'>[[poca información nueva]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.8em'>[[quiero probar nuevas experiencias de aventura]]</div><div class='orgasm-relation'><img src='files/svg/problems.svg' style='font-size:1.6em'>[[me gusta proyectar una imagen de aventurero]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.9em'>[[viaje en el tiempo]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.6em'>[[DeLorean Time Machine]]</div><div class='orgasm-relation'><img src='files/svg/solutions.svg' style='font-size:1.4em'>[[viaje inagural]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[vive tu etapa histórica favorita]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.6em'>[[reconocimiento como experto]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.8em'>[[desafío aventurero]]</div><div class='orgasm-relation'><img src='files/svg/propositions.svg' style='font-size:1.5em'>[[vacile sorprendente]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[traditional media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.9em'>[[on-line media coverage]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[word of mouth]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[social networks]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.4em'>[[travel agencies]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.7em'>[[website]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.6em'>[[SEO]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[SEM]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.2em'>[[revistas especializadas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[comunidades]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[relaciones públicas]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[impartición de conferencias]]</div><div class='orgasm-relation'><img src='files/svg/channels.svg' style='font-size:1.5em'>[[ferias y congresos]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.9em'>[[venta de servicios]]</div><div class='orgasm-relation'><img src='files/svg/metrics.svg' style='font-size:1.em'>[[venta de producto]]</div></div></div></section>
+<section id='test_link'><div   class='orgasm'><h1 itemprop='name' class='orgasm-object-name'><img src='files/svg/.svg' class='orgasm-icon-big'>test link</h1><div itemprop='description' class='orgasm-object-description'></div><div class='row'><div itemprop='outgoingRelations' class='col-sm-6' style='text-align:left'></div><div itemprop='incomingRelations' class='col-sm-6' style='font-size=0.2em; text-align:right'></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- LUCASCERVERA TEMPLATE: END -->
+				
+			</div>
+			<footer style="position: absolute;bottom: 10px; right: 10px; z-index:500;background-color: whitesmoke">powered by OrgaSM</footer>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script type="text/javascript" src="js/wiki2html.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+		
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				backgroundTransition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+		
+		<script>		
+		// include the script
+			var wikiContents = document.getElementById('OrgaSM-content');
+			if (wikiContents.innerHTML.iswiki()) {
+			  wikiContents.innerHTML = wikiContents.innerHTML.wiki2html();
+			}
+		</script>		
+
+	</body>
+</html>
